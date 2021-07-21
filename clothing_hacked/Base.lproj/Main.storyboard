@@ -13,35 +13,135 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="clothing_hacked" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18P-3j-qRf">
-                                <rect key="frame" x="177" y="197" width="46" height="30"/>
+                                <rect key="frame" x="14" y="230" width="358" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Find your Measurements!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeMeasureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4UC-Mw-zAg"/>
+                                    <action selector="measureHomeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgR-HR-6uS"/>
+                                    <segue destination="cZH-0K-MHq" kind="show" id="4VM-Rc-pAM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-Fa-MX3">
+                                <rect key="frame" x="43" y="74" width="329" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWB-u4-F4f">
+                                <rect key="frame" x="16" y="341" width="358" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Your Standard Sizes :)">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeSizingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJy-Wa-0t5"/>
+                                    <segue destination="Upa-s1-mlE" kind="show" id="AkE-t2-jcA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsf-pH-jNg">
+                                <rect key="frame" x="14" y="461" width="358" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Let's Go Shopping!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeShoppingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSF-jY-IuR"/>
+                                    <segue destination="OUL-Ef-pLi" kind="show" id="B9r-Tp-o0N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-SU-7Zs">
+                                <rect key="frame" x="15" y="578" width="359" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Women's Fashion History">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeHistoryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aft-eN-1Tx"/>
+                                    <segue destination="pvo-7r-uOC" kind="show" id="OjX-TB-YR8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="OOU-aw-aSg"/>
+                    <connections>
+                        <outlet property="homeMeasureButton" destination="18P-3j-qRf" id="OLS-KV-VjK"/>
+                        <outlet property="homeTitle" destination="nDe-Fa-MX3" id="fYQ-bH-S3V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="76"/>
+            <point key="canvasLocation" x="137.68115942028987" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Measure View Controller-->
         <scene sceneID="c5v-5e-ghM">
             <objects>
-                <viewController id="cZH-0K-MHq" sceneMemberID="viewController">
+                <viewController id="cZH-0K-MHq" customClass="MeasureViewController" customModule="clothing_hacked" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pf9-HZ-Owp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-Fa-MX3">
-                                <rect key="frame" x="139" y="295" width="42" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-EO-NFQ">
+                                <rect key="frame" x="16" y="703" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="measureHomeButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="6S1-gX-Sge"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="EQZ-8p-3gQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrn-5J-0Cj">
+                                <rect key="frame" x="106" y="703" width="79" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Sizing"/>
+                                <connections>
+                                    <action selector="measureSizingButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="TxE-gf-IoN"/>
+                                    <segue destination="Upa-s1-mlE" kind="show" id="0xB-yR-mA3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fc9-Ut-HOH">
+                                <rect key="frame" x="213" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Shopping"/>
+                                <connections>
+                                    <action selector="measureShoppingButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="d88-LZ-Rje"/>
+                                    <segue destination="OUL-Ef-pLi" kind="show" id="erz-mF-eDI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f04-fk-VCD">
+                                <rect key="frame" x="306" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="History"/>
+                                <connections>
+                                    <action selector="measureHistoryButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="eSS-tK-lNK"/>
+                                    <segue destination="pvo-7r-uOC" kind="show" id="ao8-86-F6r"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNR-tR-UPh">
+                                <rect key="frame" x="31" y="0.0" width="329" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,12 +149,228 @@
                         <viewLayoutGuide key="safeArea" id="FiG-8y-2q7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8bK-t5-r3n"/>
+                    <connections>
+                        <outlet property="measureAppTitle" destination="wNR-tR-UPh" id="J1L-Le-nDG"/>
+                        <outlet property="measureHomeButton" destination="WgS-EO-NFQ" id="erN-Kj-ETm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nac-j6-EaN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="86"/>
+            <point key="canvasLocation" x="896.92307692307691" y="380.33175355450237"/>
+        </scene>
+        <!--Sizing View Controller-->
+        <scene sceneID="JaG-Pz-JMu">
+            <objects>
+                <viewController id="Upa-s1-mlE" customClass="SizingViewController" customModule="clothing_hacked" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2So-P8-nkk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ1-RE-g6c">
+                                <rect key="frame" x="31" y="44" width="329" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LD2-dM-aJa">
+                                <rect key="frame" x="16" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="sizingHomeButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="TvQ-Rd-BZ1"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="xMD-8J-rtk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idD-vr-w7W">
+                                <rect key="frame" x="115" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Measure"/>
+                                <connections>
+                                    <action selector="sizingMeasureButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="8Sw-ZK-Kyf"/>
+                                    <segue destination="cZH-0K-MHq" kind="show" id="vXa-zL-qfx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcH-BR-z3n">
+                                <rect key="frame" x="214" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Shopping"/>
+                                <connections>
+                                    <action selector="sizingShoppingButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="hKf-SZ-XDu"/>
+                                    <segue destination="OUL-Ef-pLi" kind="show" id="ciE-Bs-7qj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF5-r1-IFj">
+                                <rect key="frame" x="306" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="History"/>
+                                <connections>
+                                    <action selector="measureHistoryButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="X0I-Th-cs6"/>
+                                    <segue destination="pvo-7r-uOC" kind="show" id="w6Y-lB-Ks4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aPm-tB-GI8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KAr-Bq-3Po"/>
+                    <connections>
+                        <outlet property="sizingTitleLabel" destination="PJ1-RE-g6c" id="gOa-rQ-meE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snt-rA-xGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669" y="633"/>
+        </scene>
+        <!--Shopping View Controller-->
+        <scene sceneID="lhj-Ue-o4I">
+            <objects>
+                <viewController id="OUL-Ef-pLi" customClass="ShoppingViewController" customModule="clothing_hacked" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lth-tF-Ipf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW8-Mg-rCu">
+                                <rect key="frame" x="31" y="44" width="329" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOA-YL-5aS">
+                                <rect key="frame" x="16" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="shoppingHomeButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="0YN-x9-YOe"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="5PA-xd-RjM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rq9-gt-eT9">
+                                <rect key="frame" x="117" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Measure"/>
+                                <connections>
+                                    <action selector="shoppingMeasureButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="UIf-Et-Jbc"/>
+                                    <segue destination="cZH-0K-MHq" kind="show" id="3pV-Yr-MmC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGb-Q8-a7N">
+                                <rect key="frame" x="306" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="History"/>
+                                <connections>
+                                    <action selector="shoppingHistoryButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="m63-iV-Jfx"/>
+                                    <segue destination="pvo-7r-uOC" kind="show" id="eHK-NM-FxK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAf-of-5m1">
+                                <rect key="frame" x="212" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Sizing"/>
+                                <connections>
+                                    <action selector="shoppingSizingButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="kQX-Eo-21w"/>
+                                    <segue destination="Upa-s1-mlE" kind="show" id="iXM-99-peC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7oT-jS-gJ1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iTJ-Ma-uIe"/>
+                    <connections>
+                        <outlet property="shoppingTitleLabel" destination="eW8-Mg-rCu" id="OlB-aU-7P2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jfs-HF-Ts0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2508" y="778"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="tKg-Yf-Ob1">
+            <objects>
+                <viewController id="pvo-7r-uOC" customClass="HistoryViewController" customModule="clothing_hacked" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jL7-7d-qkr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-n7-JaY">
+                                <rect key="frame" x="31" y="44" width="329" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3w-Zm-Qd1">
+                                <rect key="frame" x="31" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="historyHomeButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="rBA-QM-FxK"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="nIj-5i-5f9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBJ-LC-JDQ">
+                                <rect key="frame" x="107" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Measure"/>
+                                <connections>
+                                    <action selector="historyMeasureButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="tPS-pm-EKq"/>
+                                    <segue destination="cZH-0K-MHq" kind="show" id="FHR-JL-syh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGV-E1-eIj">
+                                <rect key="frame" x="183" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Sizing"/>
+                                <connections>
+                                    <action selector="historySizingButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="yX3-1h-oo6"/>
+                                    <segue destination="Upa-s1-mlE" kind="show" id="24a-RI-JEg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKy-el-GqG">
+                                <rect key="frame" x="259" y="703" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Shopping"/>
+                                <connections>
+                                    <action selector="historyShoppingButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="aSF-Zf-nKT"/>
+                                    <segue destination="OUL-Ef-pLi" kind="show" id="AiR-fG-iFh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3oo-FL-590"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xkr-hX-Zea"/>
+                    <connections>
+                        <outlet property="historyTitleLabel" destination="xa1-n7-JaY" id="Ptr-Rh-dIj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QNz-mk-ldj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3370.7692307692305" y="925.59241706161129"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="OjX-TB-YR8"/>
+        <segue reference="B9r-Tp-o0N"/>
+        <segue reference="AkE-t2-jcA"/>
+        <segue reference="4VM-Rc-pAM"/>
+        <segue reference="nIj-5i-5f9"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -16,6 +16,10 @@
 		257ABDCD26A769D300694272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABDCB26A769D300694272 /* LaunchScreen.storyboard */; };
 		257ABDD826A769D400694272 /* clothing_hackedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABDD726A769D400694272 /* clothing_hackedTests.swift */; };
 		257ABDE326A769D400694272 /* clothing_hackedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABDE226A769D400694272 /* clothing_hackedUITests.swift */; };
+		6244A5ED26A8CBF8000DC78E /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5EC26A8CBF8000DC78E /* MeasureViewController.swift */; };
+		6244A5EF26A8D036000DC78E /* SizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5EE26A8D036000DC78E /* SizingViewController.swift */; };
+		6244A5F126A8D115000DC78E /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5F026A8D115000DC78E /* ShoppingViewController.swift */; };
+		6244A5F326A8D258000DC78E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5F226A8D258000DC78E /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		257ABDDE26A769D400694272 /* clothing_hackedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clothing_hackedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257ABDE226A769D400694272 /* clothing_hackedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothing_hackedUITests.swift; sourceTree = "<group>"; };
 		257ABDE426A769D400694272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6244A5EC26A8CBF8000DC78E /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		6244A5EE26A8D036000DC78E /* SizingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingViewController.swift; sourceTree = "<group>"; };
+		6244A5F026A8D115000DC78E /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		6244A5F226A8D258000DC78E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				257ABDBF26A769CF00694272 /* SceneDelegate.swift */,
 				257ABDC126A769CF00694272 /* ViewController.swift */,
 				257ABDC326A769CF00694272 /* Main.storyboard */,
+				6244A5F226A8D258000DC78E /* HistoryViewController.swift */,
+				6244A5F026A8D115000DC78E /* ShoppingViewController.swift */,
+				6244A5EE26A8D036000DC78E /* SizingViewController.swift */,
+				6244A5EC26A8CBF8000DC78E /* MeasureViewController.swift */,
 				257ABDC926A769D300694272 /* Assets.xcassets */,
 				257ABDCB26A769D300694272 /* LaunchScreen.storyboard */,
 				257ABDCE26A769D300694272 /* Info.plist */,
@@ -263,8 +275,12 @@
 			files = (
 				257ABDC226A769CF00694272 /* ViewController.swift in Sources */,
 				257ABDBE26A769CF00694272 /* AppDelegate.swift in Sources */,
+				6244A5F126A8D115000DC78E /* ShoppingViewController.swift in Sources */,
 				257ABDC026A769CF00694272 /* SceneDelegate.swift in Sources */,
+				6244A5ED26A8CBF8000DC78E /* MeasureViewController.swift in Sources */,
+				6244A5EF26A8D036000DC78E /* SizingViewController.swift in Sources */,
 				257ABDC826A769CF00694272 /* clothing_hacked.xcdatamodeld in Sources */,
+				6244A5F326A8D258000DC78E /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
