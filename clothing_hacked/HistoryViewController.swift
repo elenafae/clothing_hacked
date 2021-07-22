@@ -11,6 +11,14 @@ class HistoryViewController: UIViewController {
 
     @IBOutlet weak var historyTitleLabel: UILabel!
     
+    @IBOutlet weak var historyHomeCircle: UIImageView!
+    
+    @IBOutlet weak var historyMeasureCircle: UIImageView!
+    
+    @IBOutlet weak var historySizingCircle: UIImageView!
+    
+    @IBOutlet weak var historyShoppingCircle: UIImageView!
+    
     @IBAction func historyHomeButton(_ sender: Any) {
     }
     

@@ -11,6 +11,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var homeTitle: UILabel!
     
+    @IBOutlet weak var homeSlogan: UILabel!
+    
+    
+    
 
     @IBAction func homeMeasureButton(_ sender: Any) {
     }

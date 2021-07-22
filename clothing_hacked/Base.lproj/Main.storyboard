@@ -4,9 +4,13 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-ApercuBoldItalic.ttf">
+            <string>Apercu-BoldItalic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -17,12 +21,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18P-3j-qRf">
-                                <rect key="frame" x="14" y="230" width="358" height="74"/>
+                                <rect key="frame" x="28" y="223" width="358" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="28"/>
                                 <state key="normal" title="Find your Measurements!">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.46274509803921571" green="0.33725490196078434" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="homeMeasureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="53A-cE-xXG"/>
@@ -30,19 +34,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-Fa-MX3">
-                                <rect key="frame" x="43" y="74" width="329" height="97"/>
+                                <rect key="frame" x="43" y="20" width="329" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWB-u4-F4f">
-                                <rect key="frame" x="16" y="341" width="358" height="74"/>
+                                <rect key="frame" x="28" y="324" width="358" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="28"/>
                                 <state key="normal" title="Your Standard Sizes :)">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="homeSizingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJy-Wa-0t5"/>
@@ -50,25 +54,32 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsf-pH-jNg">
-                                <rect key="frame" x="14" y="461" width="358" height="74"/>
+                                <rect key="frame" x="28" y="428" width="358" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="28"/>
                                 <state key="normal" title="Let's Go Shopping!">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="homeShoppingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSF-jY-IuR"/>
                                     <segue destination="OUL-Ef-pLi" kind="show" id="B9r-Tp-o0N"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-SU-7Zs">
-                                <rect key="frame" x="15" y="578" width="359" height="74"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We'll find your perfect (sizing) match &lt;3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSn-bg-w6C">
+                                <rect key="frame" x="71" y="98" width="273" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94920895920000004" green="0.79239903550000002" blue="0.71067822680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-SU-7Zs">
+                                <rect key="frame" x="28" y="533" width="359" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="28"/>
                                 <state key="normal" title="Women's Fashion History">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="homeHistoryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aft-eN-1Tx"/>
@@ -77,10 +88,11 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.8901960784313725" green="0.77647058823529413" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="OOU-aw-aSg"/>
                     <connections>
+                        <outlet property="homeSlogan" destination="GSn-bg-w6C" id="Gj6-3h-bLs"/>
                         <outlet property="homeTitle" destination="nDe-Fa-MX3" id="fYQ-bH-S3V"/>
                     </connections>
                 </viewController>
@@ -96,65 +108,178 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-EO-NFQ">
-                                <rect key="frame" x="16" y="703" width="68" height="53"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Yt3-sK-3Iv">
+                                <rect key="frame" x="10" y="719.5" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Home"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PHN-F2-SFB">
+                                <rect key="frame" x="106" y="719.5" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="R3h-rx-Qze">
+                                <rect key="frame" x="306" y="719.5" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iau-bM-f46">
+                                <rect key="frame" x="210" y="719.5" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-EO-NFQ">
+                                <rect key="frame" x="20" y="737" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="measureHomeButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="3Ql-C4-gGv"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="EQZ-8p-3gQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrn-5J-0Cj">
-                                <rect key="frame" x="106" y="703" width="79" height="53"/>
+                                <rect key="frame" x="122" y="736" width="57" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Sizing"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Sizing">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="measureSizingButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="TxE-gf-IoN"/>
                                     <segue destination="Upa-s1-mlE" kind="show" id="0xB-yR-mA3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fc9-Ut-HOH">
-                                <rect key="frame" x="213" y="703" width="68" height="53"/>
+                                <rect key="frame" x="220" y="737" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Shopping"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Shopping">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="measureShoppingButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="d88-LZ-Rje"/>
                                     <segue destination="OUL-Ef-pLi" kind="show" id="erz-mF-eDI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f04-fk-VCD">
-                                <rect key="frame" x="306" y="703" width="68" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNR-tR-UPh">
+                                <rect key="frame" x="52" y="0.0" width="311" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="History"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f04-fk-VCD">
+                                <rect key="frame" x="316" y="736" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="History">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="measureHistoryButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="eSS-tK-lNK"/>
                                     <segue destination="pvo-7r-uOC" kind="show" id="ao8-86-F6r"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNR-tR-UPh">
-                                <rect key="frame" x="31" y="0.0" width="329" height="97"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bust" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnQ-oj-tII">
+                                <rect key="frame" x="162" y="137" width="90" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="30"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Waist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO9-Ij-M5Z">
+                                <rect key="frame" x="162" y="242" width="90" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="30"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUT-PF-2Ok">
+                                <rect key="frame" x="162" y="359" width="90" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="30"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Er-K7-gPT">
+                                <rect key="frame" x="139" y="492" width="136" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="20"/>
+                                <state key="normal" title="Find My SIze!">
+                                    <color key="titleColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="measureSubmitButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="Auz-9U-wGe"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IkH-Jl-lw9">
+                                <rect key="frame" x="159" y="180" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="measureTextBox:" destination="cZH-0K-MHq" eventType="editingDidEnd" id="Xs6-89-1hc"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CUL-Rm-kPQ">
+                                <rect key="frame" x="159" y="291" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="measureWaistTextBox:" destination="cZH-0K-MHq" eventType="editingDidEnd" id="J2B-Qa-iYb"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ypA-xC-fRv">
+                                <rect key="frame" x="159" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="measureHipsTextBox:" destination="cZH-0K-MHq" eventType="editingDidEnd" id="BwR-BM-UzV"/>
+                                    <action selector="measureWaistTextBox:" destination="cZH-0K-MHq" eventType="editingDidEnd" id="nRj-pB-vBi"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please put your measurements in Inches!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fM-v7-yXo">
+                                <rect key="frame" x="46" y="92" width="322" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="17"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*says size*" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnC-lG-laY">
+                                <rect key="frame" x="133" y="576" width="149" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="30"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FiG-8y-2q7"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="8bK-t5-r3n"/>
                     <connections>
                         <outlet property="measureAppTitle" destination="wNR-tR-UPh" id="J1L-Le-nDG"/>
+                        <outlet property="measureBustLabel" destination="HnQ-oj-tII" id="9Xu-T4-Jgi"/>
+                        <outlet property="measureHipsLabel" destination="tUT-PF-2Ok" id="oYb-SN-57f"/>
+                        <outlet property="measureHistoryCircle" destination="R3h-rx-Qze" id="pV5-Hu-lDA"/>
+                        <outlet property="measureHomeCircle" destination="Yt3-sK-3Iv" id="1O0-ni-L1t"/>
+                        <outlet property="measureInstructions" destination="7fM-v7-yXo" id="ryH-uO-DlI"/>
+                        <outlet property="measureShoppingCircle" destination="iau-bM-f46" id="i8O-qc-fJO"/>
+                        <outlet property="measureSizeLabel" destination="LnC-lG-laY" id="gGD-86-RYv"/>
+                        <outlet property="measureSizingCircle" destination="PHN-F2-SFB" id="KeV-yd-QMh"/>
+                        <outlet property="measureWaistLabel" destination="SO9-Ij-M5Z" id="Lg5-zO-d1q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nac-j6-EaN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="896.92307692307691" y="380.33175355450237"/>
+            <point key="canvasLocation" x="895.6521739130435" y="379.6875"/>
         </scene>
         <!--Sizing View Controller-->
         <scene sceneID="JaG-Pz-JMu">
@@ -164,48 +289,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ1-RE-g6c">
-                                <rect key="frame" x="31" y="44" width="329" height="97"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3dY-vj-jsA">
+                                <rect key="frame" x="102" y="703" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Mb4-R7-vhe">
+                                <rect key="frame" x="194" y="703" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-0B-WIc">
+                                <rect key="frame" x="290" y="703" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Pa7-t3-Yee">
+                                <rect key="frame" x="6" y="703" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LD2-dM-aJa">
-                                <rect key="frame" x="16" y="703" width="68" height="53"/>
+                                <rect key="frame" x="16" y="721" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Home"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="sizingHomeButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="TvQ-Rd-BZ1"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="xMD-8J-rtk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idD-vr-w7W">
-                                <rect key="frame" x="115" y="703" width="68" height="53"/>
+                                <rect key="frame" x="112" y="721" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Measure"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Measure">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="sizingMeasureButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="8Sw-ZK-Kyf"/>
                                     <segue destination="cZH-0K-MHq" kind="show" id="vXa-zL-qfx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcH-BR-z3n">
-                                <rect key="frame" x="214" y="703" width="68" height="53"/>
+                                <rect key="frame" x="204" y="721" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Shopping"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Shopping">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="sizingShoppingButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="hKf-SZ-XDu"/>
                                     <segue destination="OUL-Ef-pLi" kind="show" id="ciE-Bs-7qj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF5-r1-IFj">
-                                <rect key="frame" x="306" y="703" width="68" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ1-RE-g6c">
+                                <rect key="frame" x="43" y="20" width="329" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="History"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF5-r1-IFj">
+                                <rect key="frame" x="300" y="721" width="68" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="History">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="measureHistoryButton:" destination="Upa-s1-mlE" eventType="touchUpInside" id="X0I-Th-cs6"/>
                                     <segue destination="pvo-7r-uOC" kind="show" id="w6Y-lB-Ks4"/>
@@ -213,10 +366,14 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aPm-tB-GI8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="KAr-Bq-3Po"/>
                     <connections>
+                        <outlet property="measureHistoryCircle" destination="MiH-0B-WIc" id="MVC-fB-PBc"/>
+                        <outlet property="measureShoppingCircle" destination="Mb4-R7-vhe" id="yIt-hg-F44"/>
+                        <outlet property="sizingHomeCircle" destination="Pa7-t3-Yee" id="uQm-eu-XqW"/>
+                        <outlet property="sizingMeasureCircle" destination="3dY-vj-jsA" id="CUl-WB-2TO"/>
                         <outlet property="sizingTitleLabel" destination="PJ1-RE-g6c" id="gOa-rQ-meE"/>
                     </connections>
                 </viewController>
@@ -232,28 +389,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW8-Mg-rCu">
-                                <rect key="frame" x="31" y="44" width="329" height="97"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cUe-cR-gBI">
+                                <rect key="frame" x="107" y="684" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GWm-hN-dds">
+                                <rect key="frame" x="202" y="684" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZjW-yT-hed">
+                                <rect key="frame" x="296" y="682" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="h5i-Jp-o8Q">
+                                <rect key="frame" x="6" y="684" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW8-Mg-rCu">
+                                <rect key="frame" x="43" y="20" width="329" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOA-YL-5aS">
                                 <rect key="frame" x="16" y="703" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Home"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="shoppingHomeButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="0YN-x9-YOe"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="5PA-xd-RjM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rq9-gt-eT9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rq9-gt-eT9">
                                 <rect key="frame" x="117" y="703" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Measure"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Measure">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="shoppingMeasureButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="UIf-Et-Jbc"/>
                                     <segue destination="cZH-0K-MHq" kind="show" id="3pV-Yr-MmC"/>
@@ -262,18 +443,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGb-Q8-a7N">
                                 <rect key="frame" x="306" y="703" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="History"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="History">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="shoppingHistoryButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="m63-iV-Jfx"/>
                                     <segue destination="pvo-7r-uOC" kind="show" id="eHK-NM-FxK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAf-of-5m1">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAf-of-5m1">
                                 <rect key="frame" x="212" y="703" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Sizing"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Sizing">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="shoppingSizingButton:" destination="OUL-Ef-pLi" eventType="touchUpInside" id="kQX-Eo-21w"/>
                                     <segue destination="Upa-s1-mlE" kind="show" id="iXM-99-peC"/>
@@ -281,10 +466,14 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7oT-jS-gJ1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="iTJ-Ma-uIe"/>
                     <connections>
+                        <outlet property="shoppingHistoryCircle" destination="ZjW-yT-hed" id="GTy-aW-zt9"/>
+                        <outlet property="shoppingHomeCircle" destination="h5i-Jp-o8Q" id="Lh4-d0-Mvv"/>
+                        <outlet property="shoppingMeasureCircle" destination="cUe-cR-gBI" id="UrN-yj-Yqe"/>
+                        <outlet property="shoppingSizingCircle" destination="GWm-hN-dds" id="jvU-At-NeN"/>
                         <outlet property="shoppingTitleLabel" destination="eW8-Mg-rCu" id="OlB-aU-7P2"/>
                     </connections>
                 </viewController>
@@ -300,84 +489,107 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-n7-JaY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gU1-Sn-jgZ">
+                                <rect key="frame" x="24" y="700" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="A1X-l8-TZ5">
+                                <rect key="frame" x="113" y="700" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JSh-wS-m8O">
+                                <rect key="frame" x="294" y="700" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DJd-yz-2xB">
+                                <rect key="frame" x="204" y="700" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing: Hacked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-n7-JaY">
                                 <rect key="frame" x="31" y="44" width="329" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3w-Zm-Qd1">
-                                <rect key="frame" x="31" y="703" width="68" height="53"/>
+                                <rect key="frame" x="34" y="718" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Home"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="historyHomeButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="rBA-QM-FxK"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="nIj-5i-5f9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBJ-LC-JDQ">
-                                <rect key="frame" x="107" y="703" width="68" height="53"/>
+                                <rect key="frame" x="123" y="718" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Measure"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Measure">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="historyMeasureButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="tPS-pm-EKq"/>
                                     <segue destination="cZH-0K-MHq" kind="show" id="FHR-JL-syh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGV-E1-eIj">
-                                <rect key="frame" x="183" y="703" width="68" height="53"/>
+                                <rect key="frame" x="214" y="717" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Sizing"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Sizing">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="historySizingButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="yX3-1h-oo6"/>
                                     <segue destination="Upa-s1-mlE" kind="show" id="24a-RI-JEg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKy-el-GqG">
-                                <rect key="frame" x="259" y="703" width="68" height="53"/>
+                                <rect key="frame" x="304" y="717" width="68" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Shopping"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <state key="normal" title="Shopping">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="historyShoppingButton:" destination="pvo-7r-uOC" eventType="touchUpInside" id="aSF-Zf-nKT"/>
                                     <segue destination="OUL-Ef-pLi" kind="show" id="AiR-fG-iFh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYq-jK-2gb">
-                                <rect key="frame" x="183" y="245" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3oo-FL-590"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xkr-hX-Zea"/>
                     <connections>
+                        <outlet property="historyHomeCircle" destination="gU1-Sn-jgZ" id="lgr-cC-mT8"/>
+                        <outlet property="historyMeasureCircle" destination="A1X-l8-TZ5" id="rnU-TK-mvm"/>
+                        <outlet property="historyShoppingCircle" destination="JSh-wS-m8O" id="lGJ-dx-LYl"/>
+                        <outlet property="historySizingCircle" destination="DJd-yz-2xB" id="QC6-8l-2Sm"/>
                         <outlet property="historyTitleLabel" destination="xa1-n7-JaY" id="Ptr-Rh-dIj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNz-mk-ldj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3370.7692307692305" y="925.59241706161129"/>
+            <point key="canvasLocation" x="3369.5652173913045" y="925.44642857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eHK-NM-FxK"/>
-        <segue reference="AiR-fG-iFh"/>
-        <segue reference="24a-RI-JEg"/>
+        <segue reference="ao8-86-F6r"/>
+        <segue reference="erz-mF-eDI"/>
+        <segue reference="0xB-yR-mA3"/>
         <segue reference="FHR-JL-syh"/>
-        <segue reference="nIj-5i-5f9"/>
+        <segue reference="EQZ-8p-3gQ"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>

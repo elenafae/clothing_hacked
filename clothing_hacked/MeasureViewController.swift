@@ -11,9 +11,40 @@ class MeasureViewController: UIViewController {
 
     @IBOutlet weak var measureAppTitle: UILabel!
     
-    @IBAction func measureHomeButton(_ sender: Any) {
+    @IBOutlet weak var measureInstructions: UILabel!
+    
+    @IBOutlet weak var measureBustLabel: UILabel!
+    
+    @IBAction func measureTextBox(_ sender: Any) {
     }
     
+    @IBOutlet weak var measureWaistLabel: UILabel!
+    
+    @IBAction func measureWaistTextBox(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var measureHipsLabel: UILabel!
+    
+ 
+    @IBAction func measureHipsTextBox(_ sender: Any) {
+    }
+    
+    @IBAction func measureSubmitButton(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var measureSizeLabel: UILabel!
+    
+    
+    @IBOutlet weak var measureHomeCircle: UIImageView!
+    
+    @IBOutlet weak var measureSizingCircle: UIImageView!
+    
+    @IBOutlet weak var measureShoppingCircle: UIImageView!
+    
+    @IBOutlet weak var measureHistoryCircle: UIImageView!
+    
+    @IBAction func measureHomeButton(_ sender: Any) {
+    }
     
     @IBAction func measureSizingButton(_ sender: Any) {
     }
@@ -23,6 +54,9 @@ class MeasureViewController: UIViewController {
     
     @IBAction func measureHistoryButton(_ sender: Any) {
     }
+    
+    
+    
     
     
     override func viewDidLoad() {

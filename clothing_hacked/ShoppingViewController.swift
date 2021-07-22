@@ -11,6 +11,18 @@ class ShoppingViewController: UIViewController {
 
     @IBOutlet weak var shoppingTitleLabel: UILabel!
     
+    @IBOutlet weak var shoppingHomeCircle: UIImageView!
+    
+    
+    @IBOutlet weak var shoppingMeasureCircle: UIImageView!
+    
+    @IBOutlet weak var shoppingSizingCircle: UIImageView!
+    
+    @IBOutlet weak var shoppingHistoryCircle: UIImageView!
+    
+    
+    
+    
     @IBAction func shoppingHomeButton(_ sender: Any) {
     }
     

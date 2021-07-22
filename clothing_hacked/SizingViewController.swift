@@ -11,6 +11,15 @@ class SizingViewController: UIViewController {
 
     @IBOutlet weak var sizingTitleLabel: UILabel!
     
+    
+    @IBOutlet weak var sizingHomeCircle: UIImageView!
+    
+    @IBOutlet weak var sizingMeasureCircle: UIImageView!
+    
+    @IBOutlet weak var measureShoppingCircle: UIImageView!
+    
+    @IBOutlet weak var measureHistoryCircle: UIImageView!
+    
     @IBAction func sizingHomeButton(_ sender: Any) {
     }
     

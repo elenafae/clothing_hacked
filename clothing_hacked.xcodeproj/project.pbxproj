@@ -20,6 +20,9 @@
 		6244A5EF26A8D036000DC78E /* SizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5EE26A8D036000DC78E /* SizingViewController.swift */; };
 		6244A5F126A8D115000DC78E /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5F026A8D115000DC78E /* ShoppingViewController.swift */; };
 		6244A5F326A8D258000DC78E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244A5F226A8D258000DC78E /* HistoryViewController.swift */; };
+		627E685C26AA0C51009A4291 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627E685B26AA0C51009A4291 /* IBMPlexMono-SemiBold.ttf */; };
+		627E685E26AA0DF1009A4291 /* FontsFree-Net-ApercuBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627E685D26AA0DF1009A4291 /* FontsFree-Net-ApercuBoldItalic.ttf */; };
+		628FBDDD26A9F46E00EDCD9C /* YellowrabbitPersonaluse-qZYyd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 628FBDDC26A9F46E00EDCD9C /* YellowrabbitPersonaluse-qZYyd.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		6244A5EE26A8D036000DC78E /* SizingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingViewController.swift; sourceTree = "<group>"; };
 		6244A5F026A8D115000DC78E /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		6244A5F226A8D258000DC78E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		627E685B26AA0C51009A4291 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		627E685D26AA0DF1009A4291 /* FontsFree-Net-ApercuBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-ApercuBoldItalic.ttf"; sourceTree = "<group>"; };
+		628FBDDC26A9F46E00EDCD9C /* YellowrabbitPersonaluse-qZYyd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YellowrabbitPersonaluse-qZYyd.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 				257ABDCB26A769D300694272 /* LaunchScreen.storyboard */,
 				257ABDCE26A769D300694272 /* Info.plist */,
 				257ABDC626A769CF00694272 /* clothing_hacked.xcdatamodeld */,
+				628FBDDE26A9F48900EDCD9C /* fonts */,
 			);
 			path = clothing_hacked;
 			sourceTree = "<group>";
@@ -141,6 +148,16 @@
 				257ABDE426A769D400694272 /* Info.plist */,
 			);
 			path = clothing_hackedUITests;
+			sourceTree = "<group>";
+		};
+		628FBDDE26A9F48900EDCD9C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				627E685D26AA0DF1009A4291 /* FontsFree-Net-ApercuBoldItalic.ttf */,
+				627E685B26AA0C51009A4291 /* IBMPlexMono-SemiBold.ttf */,
+				628FBDDC26A9F46E00EDCD9C /* YellowrabbitPersonaluse-qZYyd.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				257ABDCD26A769D300694272 /* LaunchScreen.storyboard in Resources */,
+				628FBDDD26A9F46E00EDCD9C /* YellowrabbitPersonaluse-qZYyd.otf in Resources */,
+				627E685E26AA0DF1009A4291 /* FontsFree-Net-ApercuBoldItalic.ttf in Resources */,
+				627E685C26AA0C51009A4291 /* IBMPlexMono-SemiBold.ttf in Resources */,
 				257ABDCA26A769D300694272 /* Assets.xcassets in Resources */,
 				257ABDC526A769CF00694272 /* Main.storyboard in Resources */,
 			);
