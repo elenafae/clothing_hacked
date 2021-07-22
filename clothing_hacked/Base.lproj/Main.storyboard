@@ -25,8 +25,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="homeMeasureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4UC-Mw-zAg"/>
-                                    <action selector="measureHomeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FgR-HR-6uS"/>
+                                    <action selector="homeMeasureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="53A-cE-xXG"/>
                                     <segue destination="cZH-0K-MHq" kind="show" id="4VM-Rc-pAM"/>
                                 </connections>
                             </button>
@@ -82,7 +81,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="OOU-aw-aSg"/>
                     <connections>
-                        <outlet property="homeMeasureButton" destination="18P-3j-qRf" id="OLS-KV-VjK"/>
                         <outlet property="homeTitle" destination="nDe-Fa-MX3" id="fYQ-bH-S3V"/>
                     </connections>
                 </viewController>
@@ -104,7 +102,7 @@
                                 <color key="backgroundColor" red="0.95057561359999998" green="0.82251538130000001" blue="0.75530833139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
-                                    <action selector="measureHomeButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="6S1-gX-Sge"/>
+                                    <action selector="measureHomeButton:" destination="cZH-0K-MHq" eventType="touchUpInside" id="3Ql-C4-gGv"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="EQZ-8p-3gQ"/>
                                 </connections>
                             </button>
@@ -152,7 +150,6 @@
                     <navigationItem key="navigationItem" id="8bK-t5-r3n"/>
                     <connections>
                         <outlet property="measureAppTitle" destination="wNR-tR-UPh" id="J1L-Le-nDG"/>
-                        <outlet property="measureHomeButton" destination="WgS-EO-NFQ" id="erN-Kj-ETm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nac-j6-EaN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -372,10 +369,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OjX-TB-YR8"/>
-        <segue reference="B9r-Tp-o0N"/>
-        <segue reference="AkE-t2-jcA"/>
-        <segue reference="4VM-Rc-pAM"/>
+        <segue reference="eHK-NM-FxK"/>
+        <segue reference="AiR-fG-iFh"/>
+        <segue reference="24a-RI-JEg"/>
+        <segue reference="FHR-JL-syh"/>
         <segue reference="nIj-5i-5f9"/>
     </inferredMetricsTieBreakers>
     <resources>
