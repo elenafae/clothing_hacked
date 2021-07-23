@@ -12,6 +12,7 @@ class SizingViewController: UIViewController {
     @IBOutlet weak var sizingTitleLabel: UILabel!
     
     
+    @IBOutlet weak var sizingHeader: UILabel!
     @IBOutlet weak var sizingHomeCircle: UIImageView!
     
     @IBOutlet weak var sizingMeasureCircle: UIImageView!

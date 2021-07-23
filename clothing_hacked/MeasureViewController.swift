@@ -57,7 +57,7 @@ class MeasureViewController:
             if whichMeasurement == "hips" {
                 for i in foreverHips{
                     if largestMeasurement <= i {
-                        outputLabel.text = "Forever 21's \(foreverSizes[foreverHips.firstIndex(of: i)!]) size would be bestfor you."
+                        outputLabel.text = "Forever 21's \(foreverSizes[foreverHips.firstIndex(of: i)!]) size would be best for you."
                         break
                     }else if largestMeasurement > foreverHips[foreverHips.count - 1]{
                         outputLabel.text = "Forever 21's sizes are too small for you."
@@ -78,7 +78,7 @@ class MeasureViewController:
                         outputLabel.text = "Forever 21's \(foreverSizes[foreverBust.firstIndex(of: i)!]) would be best for you."
                         break
                     }else if largestMeasurement > foreverBust[foreverBust.count - 1]{
-                        outputLabel.text = "Forever 21 doesn't have any  sizes that suit you."
+                        outputLabel.text = "Forever 21 doesn't have any sizes that suit you."
                     }
                 }
             }

@@ -86,6 +86,10 @@
                                     <segue destination="pvo-7r-uOC" kind="show" id="OjX-TB-YR8"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-23 at 10.05.22 AM (2)" translatesAutoresizingMaskIntoConstraints="NO" id="jEY-Sa-dUx">
+                                <rect key="frame" x="87" y="661" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.8901960784313725" green="0.77647058823529413" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
@@ -94,6 +98,7 @@
                     <connections>
                         <outlet property="homeSlogan" destination="GSn-bg-w6C" id="Gj6-3h-bLs"/>
                         <outlet property="homeTitle" destination="nDe-Fa-MX3" id="fYQ-bH-S3V"/>
+                        <outlet property="logo" destination="jEY-Sa-dUx" id="hwQ-1A-aJ8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -363,6 +368,13 @@
                                     <segue destination="pvo-7r-uOC" kind="show" id="w6Y-lB-Ks4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Standard Sizing &lt;3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0b-T2-X8R">
+                                <rect key="frame" x="123" y="107" width="169" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="20"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aPm-tB-GI8"/>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -371,6 +383,7 @@
                     <connections>
                         <outlet property="measureHistoryCircle" destination="MiH-0B-WIc" id="MVC-fB-PBc"/>
                         <outlet property="measureShoppingCircle" destination="Mb4-R7-vhe" id="yIt-hg-F44"/>
+                        <outlet property="sizingHeader" destination="O0b-T2-X8R" id="eJd-SM-gkM"/>
                         <outlet property="sizingHomeCircle" destination="Pa7-t3-Yee" id="uQm-eu-XqW"/>
                         <outlet property="sizingMeasureCircle" destination="3dY-vj-jsA" id="CUl-WB-2TO"/>
                         <outlet property="sizingTitleLabel" destination="PJ1-RE-g6c" id="gOa-rQ-meE"/>
@@ -378,7 +391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snt-rA-xGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1669" y="633"/>
+            <point key="canvasLocation" x="1668.1159420289857" y="632.8125"/>
         </scene>
         <!--Shopping View Controller-->
         <scene sceneID="lhj-Ue-o4I">
@@ -463,6 +476,13 @@
                                     <segue destination="Upa-s1-mlE" kind="show" id="iXM-99-peC"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's Go Shopping!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tG4-3Q-8ld">
+                                <rect key="frame" x="121" y="107" width="173" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="20"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7oT-jS-gJ1"/>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -563,6 +583,21 @@
                                     <segue destination="OUL-Ef-pLi" kind="show" id="AiR-fG-iFh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PS5-Bm-Qvs">
+                                <rect key="frame" x="50" y="134" width="314" height="526"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">Women’s Fashion History
+
+In the past, women’s clothing was worn for functionality and to show status, such as using cotton to endure the heat and jewelry made of copper, gold and precious stones. In medical times, there were even laws about not wearing expensive clothing above your rank (which obviously got ignored because #girlboss).
+
+Nowadays, most women dress to feel confident, which is SO AMAZING, but clothing companies can make them feel otherwise, due to vanity sizing. There used to be a standard sizing that matched all around, however, brands are now using different sizing standards to target their main demographic and “core customer.” This creates difficulty in trying to go shopping and also a false narrative, as companies are also changing bigger sizes to smaller number - in order to increase sales by making women feel good about themselves. 
+
+Clothing: Hacked aims to make women feel confident in their size and promote an easier shopping experience all around.</mutableString>
+                                <fontDescription key="fontDescription" name="Apercu-BoldItalic" family="Apercu" pointSize="15"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.33725490200000002" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3oo-FL-590"/>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.77647058820000003" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -573,6 +608,7 @@
                         <outlet property="historyMeasureCircle" destination="A1X-l8-TZ5" id="rnU-TK-mvm"/>
                         <outlet property="historyShoppingCircle" destination="JSh-wS-m8O" id="lGJ-dx-LYl"/>
                         <outlet property="historySizingCircle" destination="DJd-yz-2xB" id="QC6-8l-2Sm"/>
+                        <outlet property="historyTextLabel" destination="PS5-Bm-Qvs" id="n3x-iL-DcE"/>
                         <outlet property="historyTitleLabel" destination="xa1-n7-JaY" id="Ptr-Rh-dIj"/>
                     </connections>
                 </viewController>
@@ -582,13 +618,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ao8-86-F6r"/>
-        <segue reference="erz-mF-eDI"/>
-        <segue reference="0xB-yR-mA3"/>
-        <segue reference="FHR-JL-syh"/>
-        <segue reference="EQZ-8p-3gQ"/>
+        <segue reference="eHK-NM-FxK"/>
+        <segue reference="AiR-fG-iFh"/>
+        <segue reference="iXM-99-peC"/>
+        <segue reference="3pV-Yr-MmC"/>
+        <segue reference="5PA-xd-RjM"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Screen Shot 2021-07-23 at 10.05.22 AM (2)" width="1920" height="1080"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>

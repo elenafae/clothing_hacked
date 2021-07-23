@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     @IBAction func homeHistoryButton(_ sender: Any) {
     }
     
+    @IBOutlet weak var logo: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

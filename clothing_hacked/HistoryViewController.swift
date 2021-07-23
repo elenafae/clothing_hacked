@@ -11,6 +11,10 @@ class HistoryViewController: UIViewController {
 
     @IBOutlet weak var historyTitleLabel: UILabel!
     
+    
+    @IBOutlet weak var historyTextLabel: UILabel!
+    
+    
     @IBOutlet weak var historyHomeCircle: UIImageView!
     
     @IBOutlet weak var historyMeasureCircle: UIImageView!
@@ -30,6 +34,7 @@ class HistoryViewController: UIViewController {
     
     @IBAction func historyShoppingButton(_ sender: Any) {
     }
+    
     
     
     override func viewDidLoad() {
